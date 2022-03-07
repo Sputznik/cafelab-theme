@@ -7,3 +7,11 @@ Version: 1.0.0
 Author: Sputznik
 Author URI: https://sputznik.com
 */
+
+/* SINGLE TEMPLATE MODIFICATIONS */
+.single-template-cafelab .post-description-wrap {
+  background:white;
+}
+.single-template-cafelab .tags {
+  margin:50px auto !important;
+}

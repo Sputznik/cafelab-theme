@@ -22,9 +22,12 @@
           </div>
         </div>
       </div>
-      <div class="description narrow-col">
-        <?php the_content(); ?>
+      <div class="post-description-wrap">
+        <div class="description narrow-col">
+          <?php the_content(); ?>
+        </div>
       </div>
+
       <div class="tags narrow-col">
         <?php the_tags( '', '', '' ); ?>
         <?php get_template_part( 'partials/icons', 'box');?>
