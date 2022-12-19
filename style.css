@@ -15,3 +15,18 @@ Author URI: https://sputznik.com
 .single-template-cafelab .tags {
   margin:50px auto !important;
 }
+
+/* PUBLICATION LIST */
+.publication-list .op-content {
+  margin-bottom: 30px;
+}
+
+.publication-list .op-read-more{
+  margin-top: 10px;
+}
+
+.publication-list .op-read-more img {
+  width: 16px;
+  margin-top: -4px;
+  margin-left: 2px;
+}
