@@ -21,12 +21,62 @@ Author URI: https://sputznik.com
   margin-bottom: 30px;
 }
 
-.publication-list .op-read-more{
+.publication-list .op-read-more,
+.articles-outreach-grid .op-read-more {
   margin-top: 10px;
 }
 
-.publication-list .op-read-more img {
+.publication-list .op-read-more img,
+.articles-outreach-grid .op-read-more img {
   width: 16px;
   margin-top: -4px;
   margin-left: 2px;
+}
+
+/* OUTREACH GRID */
+.articles-outreach-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.articles-outreach-grid .orbit-article-db {
+  display: grid;
+  background: #ffffff;
+  grid-template-areas:
+    "image"
+    "content";
+  grid-template-columns: 160px 1fr;
+  margin-bottom: 30px;
+}
+
+.articles-outreach-grid h3 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+.articles-outreach-grid .orbit-thumbnail-bg {
+  min-height: 160px;
+  border: 1px solid #cecece;
+}
+
+/* MEDIA QUERIES */
+@media(max-width: 991px){
+	.articles-outreach-grid {
+    display: block;
+  }
+}
+
+@media (max-width: 600px){
+  .articles-outreach-grid h3 {
+    font-size: 20px;
+  }
+
+  .articles-outreach-grid .orbit-article-db {
+    display: block;
+  }
+
+  .articles-outreach-grid .orbit-thumbnail-bg {
+    min-height: 220px;
+  }
 }
